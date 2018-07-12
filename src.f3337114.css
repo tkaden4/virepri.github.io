@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.app {
+  background-color: #1a1a1c;
+  color: ghostwhite;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+
+#particles-js {
+  height: 100%;
+  width: 100%; }
+
+#splash-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: rgba(248, 248, 255, 0.9);
+  color: #1a1a1c;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  font-size: 2vw; }
+  @media (max-width: 540px) {
+    #splash-info {
+      max-width: 95vw;
+      font-size: 4vw;
+      text-align: center;
+      justify-content: center;
+      flex-wrap: wrap; } }
+
+.profile {
+  height: 150px;
+  margin-right: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 3px; }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .info .name {
+    font-size: 4em;
+    white-space: nowrap; }
+  .info .job-title {
+    font-size: 1.5em;
+    color: #333336;
+    white-space: nowrap; }
+  .info .contact-links {
+    font-size: 1.4em; }
+    .info .contact-links > * {
+      margin-right: 5px; }
